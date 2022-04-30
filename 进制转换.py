@@ -41,7 +41,7 @@ def Math_translate(Raw, Raw_base, Aim_base):
     # 目标数据不是10进制，那么就相除倒取余
     i = Raw_base10
     while i > 0:
-        Aim = str(i % Aim_base) + Aim
+        Aim = String16[i % Aim_base] + Aim
         i //= Aim_base
     return Aim
 
